@@ -1,0 +1,26 @@
+{
+  "as_of": "2026-10-22",
+  "year": 2026,
+  "credits": [
+    {
+      "id": "streamleaf-credit",
+      "name": "Streamleaf monthly credit",
+      "card": "Bluebonnet Rewards Card",
+      "amount_per_period": 5,
+      "period_type": "monthly",
+      "annual_total": 60,
+      "trackable": true,
+      "available_ytd": 50,
+      "captured_ytd": 45,
+      "remaining_current": 5,
+      "missed": 0,
+      "periods": []
+    }
+  ],
+  "totals": {
+    "captured_ytd": 45,
+    "available_ytd": 50,
+    "missed": 0
+  },
+  "expiring_soon": []
+}

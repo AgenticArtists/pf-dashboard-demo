@@ -1,0 +1,45 @@
+{
+  "year": 2025,
+  "categories": [
+    {
+      "name": "Home Expenses",
+      "total": 37616.67
+    },
+    {
+      "name": "Child/Dependent Expenses",
+      "total": 15408.68
+    },
+    {
+      "name": "Groceries",
+      "total": 5712.5
+    },
+    {
+      "name": "Restaurants/Dining",
+      "total": 1999.57
+    },
+    {
+      "name": "Automotive Expenses",
+      "total": 1672.31
+    },
+    {
+      "name": "Healthcare/Medical",
+      "total": 660.25
+    },
+    {
+      "name": "Insurance",
+      "total": 2229.48
+    },
+    {
+      "name": "Subscriptions",
+      "total": 527.76
+    },
+    {
+      "name": "Loans",
+      "total": 6179
+    },
+    {
+      "name": "Card Payments",
+      "total": 0
+    }
+  ]
+}

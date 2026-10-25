@@ -1,0 +1,52 @@
+{
+  "generated_for": "2026-10-22",
+  "theses": [
+    {
+      "id": "target-mix",
+      "title": "Hold the 45/20/25/10 target mix",
+      "updated": "2026-10-15",
+      "statement": "The Carter household's investable assets stay pointed at 45% US equity, 20% international equity, 25% bonds, and 10% cash until the down-payment window opens.",
+      "supporting": [
+        {
+          "text": "Cash is 34.05% of the demo portfolio against a 10% target, earning less than the bond index in this synthetic series.",
+          "source": "Fictional market notes",
+          "date": "2026-10-10"
+        },
+        {
+          "text": "In the demo risk model, the target mix finished ahead of the current mix with lower volatility over the backtest window.",
+          "source": "Carter demo research digest",
+          "date": "2026-10-12"
+        }
+      ],
+      "challenging": [
+        {
+          "text": "A house purchase inside two years would argue for holding more cash than the target allows.",
+          "source": "Carter demo research digest",
+          "date": "2026-10-12"
+        }
+      ],
+      "revision_conditions": "Revisit if the house timeline moves inside 18 months, if either earner's job changes, or if reserves fall below the $24,000 floor."
+    },
+    {
+      "id": "reserves-first",
+      "title": "Fund the reserve floor before new risk",
+      "updated": "2026-10-08",
+      "statement": "Bank cash plus the money-market reserve stays between the $24,000 floor and the $42,000 ceiling before any contribution goes to equities.",
+      "supporting": [
+        {
+          "text": "Demo reserves stand at $31,500, inside the floor band, with the auto loan as the only liability beyond the cards.",
+          "source": "Fictional market notes",
+          "date": "2026-10-06"
+        }
+      ],
+      "challenging": [
+        {
+          "text": "Cash above the ceiling drags on the demo portfolio's return in every backtest year shown.",
+          "source": "Synthetic rates desk memo",
+          "date": "2026-10-09"
+        }
+      ],
+      "revision_conditions": "Revisit if monthly essentials move by more than 10% for two straight months, or if the childcare step-down arrives early."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "generated_for": "2026-10-22",
+  "deadlines": [
+    {
+      "id": "lease-renewal",
+      "title": "Review Cedar Grove lease",
+      "date": "2027-11-01",
+      "days_left": 375,
+      "category": "lease",
+      "source": "fictional lease summary",
+      "consequence": "Review renewal terms before the notice window."
+    },
+    {
+      "id": "benefits",
+      "title": "Review fictional benefits election",
+      "date": "2027-04-30",
+      "days_left": 190,
+      "category": "benefits",
+      "source": "demo enrollment summary",
+      "consequence": "Confirm the demo selection for the next plan year."
+    }
+  ]
+}

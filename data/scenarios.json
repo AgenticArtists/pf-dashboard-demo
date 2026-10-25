@@ -1,0 +1,90 @@
+{
+  "baseline": {
+    "years": [
+      {
+        "year": 1,
+        "fund_with_dp": 41500
+      },
+      {
+        "year": 2,
+        "fund_with_dp": 51000
+      },
+      {
+        "year": 3,
+        "fund_with_dp": 60500
+      },
+      {
+        "year": 4,
+        "fund_with_dp": 70000
+      },
+      {
+        "year": 5,
+        "fund_with_dp": 79500
+      }
+    ]
+  },
+  "second_child": {
+    "monthly_delta": {
+      "childcare": 700,
+      "insurance": 180,
+      "groceries": 150,
+      "healthcare": 75,
+      "dcfsa_tax_saving": -200,
+      "total": 905
+    },
+    "fund_trajectory": [
+      {
+        "year": 1,
+        "child_age": 2,
+        "monthly_delta": 0,
+        "monthly_contribution": 2000,
+        "fund": 37000,
+        "one_time_outflow": 0
+      },
+      {
+        "year": 2,
+        "child_age": 3,
+        "monthly_delta": 905,
+        "monthly_contribution": 1900,
+        "fund": 44000,
+        "one_time_outflow": 3500
+      },
+      {
+        "year": 3,
+        "child_age": 4,
+        "monthly_delta": 905,
+        "monthly_contribution": 1800,
+        "fund": 51000,
+        "one_time_outflow": 0
+      },
+      {
+        "year": 4,
+        "child_age": 5,
+        "monthly_delta": 905,
+        "monthly_contribution": 1700,
+        "fund": 58000,
+        "one_time_outflow": 0
+      },
+      {
+        "year": 5,
+        "child_age": 6,
+        "monthly_delta": 905,
+        "monthly_contribution": 1600,
+        "fund": 65000,
+        "one_time_outflow": 0
+      }
+    ],
+    "house_delay": {
+      "note": "Synthetic second-child scenario note."
+    }
+  },
+  "combined_summary": {
+    "usable_fund_year5_baseline": 79500,
+    "usable_fund_year5_with_child": 65000,
+    "healthy_price_year5_baseline_20pct": 397500,
+    "healthy_price_year5_child_20pct": 325000
+  },
+  "notes": [
+    "Synthetic scenario output."
+  ]
+}

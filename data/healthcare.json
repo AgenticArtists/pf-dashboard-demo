@@ -1,0 +1,85 @@
+{
+  "as_of": "2026-10-22",
+  "total": 860,
+  "hsa_direct_spend": 120,
+  "coverage": {
+    "claim_service_start": "2026-01-01",
+    "claim_service_end": "2026-10-22",
+    "eobs_claim_parsed": 3,
+    "eob_documents": 3,
+    "eobs_summary_only": 0,
+    "summaries_validated": 3,
+    "summaries_total": 3,
+    "note": "Synthetic coverage note."
+  },
+  "totals_by_year": {
+    "2026": {
+      "billed": 1200,
+      "allowed": 980,
+      "discounts": 220,
+      "plan_paid": 740,
+      "responsibility_eob": 240,
+      "eobs_validated": 3,
+      "claims": 3,
+      "card_paid": 160,
+      "hsa_paid": 80,
+      "unmatched_claims": 0,
+      "unmatched_dollars": 0
+    }
+  },
+  "unreimbursed": {
+    "total": 240,
+    "by_year": {
+      "2026": 240
+    },
+    "definition": "Synthetic patient responsibility without a matched HSA distribution."
+  },
+  "unmatched_claims": {
+    "count": 0,
+    "dollars": 0
+  },
+  "unmatched_charges": {
+    "count": 0,
+    "dollars": 0,
+    "rows": []
+  },
+  "recent_charges": {
+    "count": 0,
+    "dollars": 0
+  },
+  "claims": [
+    {
+      "date": "2026-03-14",
+      "patient": "Daniel",
+      "provider": "Cedar Grove Clinic",
+      "service_type": "Primary care",
+      "responsibility": 120,
+      "status": "card_paid",
+      "status_label": "Matched",
+      "payment_label": "Bluebonnet card",
+      "payment_date": "2026-03-15"
+    },
+    {
+      "date": "2026-06-08",
+      "patient": "Maya",
+      "provider": "Cedar Grove Clinic",
+      "service_type": "Primary care",
+      "responsibility": 80,
+      "status": "hsa_paid",
+      "status_label": "Matched",
+      "payment_label": "Family HSA",
+      "payment_date": "2026-06-09"
+    },
+    {
+      "date": "2026-09-02",
+      "patient": "Child",
+      "provider": "Cedar Grove Clinic",
+      "service_type": "Pediatric care",
+      "responsibility": 40,
+      "status": "card_paid",
+      "status_label": "Matched",
+      "payment_label": "Bluebonnet card",
+      "payment_date": "2026-09-03"
+    }
+  ]
+}

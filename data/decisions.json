@@ -1,0 +1,29 @@
+{
+  "decisions": [
+    {
+      "title": "Rebalance with new contributions first",
+      "date": "2026-10-05",
+      "status": "open",
+      "decision": "Direct new savings to US and international equity until the mix is within 5 points of target; sell nothing this quarter.",
+      "rationale": "The drift is contribution-fixable at the demo savings pace, and selling would realize gains for no benefit.",
+      "falsification": "If two quarters of contributions cannot close half the US-equity gap, the no-sell rule gets revisited."
+    },
+    {
+      "title": "Stage the cash trim in two moves",
+      "date": "2026-09-21",
+      "status": "open",
+      "decision": "Trim the Treasury reserve halfway to target now and the rest after the January review.",
+      "rationale": "Keeps reserves above the floor through the enrollment and tax checkpoints.",
+      "falsification": "If reserves would dip below $24,000 at either stage, the second stage is cancelled."
+    },
+    {
+      "title": "Keep the HSA in the Treasury reserve",
+      "date": "2026-08-18",
+      "status": "resolved",
+      "decision": "Leave the Family HSA invested in the Carter Treasury Reserve rather than moving it into the broad market index.",
+      "rationale": "Medical spending in the demo year ran close to the HSA balance, so the reserve's stability mattered more than the index's expected return.",
+      "falsification": "A year of low medical spending with the HSA balance above $10,000 would have argued for investing the excess.",
+      "outcome": "Kept in the reserve fund; demo medical spending stayed inside the card-paid budget."
+    }
+  ]
+}

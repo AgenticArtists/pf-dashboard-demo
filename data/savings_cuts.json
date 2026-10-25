@@ -1,0 +1,75 @@
+{
+  "as_of": "2026-10-22",
+  "cuts": [
+    {
+      "id": "unused-box",
+      "item": "Unused demo storage box",
+      "owner": "Joint",
+      "kind": "Subscription",
+      "status": "active",
+      "monthly_saved": 12,
+      "annual_saved": 144,
+      "confirmed_on": "2026-09-10",
+      "note": "Fictional confirmed cut."
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "meal-plan",
+      "item": "Plan one additional home dinner",
+      "owner": "Joint",
+      "monthly_low": 25,
+      "monthly_high": 60,
+      "note": "Fictional estimate."
+    }
+  ],
+  "in_progress": [
+    {
+      "id": "gas-switch",
+      "item": "Switch natural gas provider — Lone Star Gas to Bluebonnet Energy",
+      "owner": "Joint",
+      "kind": "Utility",
+      "expected_monthly": 84,
+      "expected_annual": 1008,
+      "note": "Current plan is a variable rate that drifted to $1.87/therm; the new 12-month fixed rate is $0.94/therm with a $4.95 monthly customer charge and a $125 early-termination fee. Expected saving is the trailing-twelve-month usage at the two rates; it lands in confirmed once the first Bluebonnet bill posts.",
+      "steps": [
+        {
+          "state": "done",
+          "when": "Oct 6, 2026",
+          "label": "Compare fixed-rate offers",
+          "detail": "Pulled 12 months of usage from Lone Star Gas bills; Bluebonnet’s 12-month fixed beat the other two offers by about $9/mo."
+        },
+        {
+          "state": "done",
+          "when": "Oct 15, 2026",
+          "label": "Enroll with Bluebonnet Energy",
+          "detail": "Enrolled online under Daniel’s name; no deposit and no credit inquiry beyond the standard check."
+        },
+        {
+          "state": "next",
+          "when": "Nov 4, 2026",
+          "label": "Switch takes effect at the meter read",
+          "detail": "Bluebonnet confirmed the Nov 4 meter read as the handover date; Lone Star Gas sends a final bill for service through Nov 3."
+        },
+        {
+          "state": "todo",
+          "when": "Dec 8, 2026",
+          "label": "First Bluebonnet bill posts",
+          "detail": "Expect a partial first cycle (Nov 4 – Dec 1). Check the rate line reads $0.94/therm and the customer charge is $4.95."
+        },
+        {
+          "state": "todo",
+          "when": "Jan 12, 2027",
+          "label": "Verify the saving and move to confirmed",
+          "detail": "Compare the first full winter bill against the same month last year, weather-adjusted; if the run rate holds, this moves into the confirmed register."
+        },
+        {
+          "state": "todo",
+          "when": "Sep 30, 2027",
+          "label": "Shop the renewal before the term ends",
+          "detail": "Fixed term ends Nov 3, 2027; start comparing offers a month ahead so it does not roll onto Bluebonnet’s variable rate."
+        }
+      ]
+    }
+  ]
+}

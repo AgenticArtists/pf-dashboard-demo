@@ -1,0 +1,180 @@
+{
+  "as_of": "2026-10-22",
+  "params": {
+    "mortgage_rate_pct": 6.5,
+    "mortgage_rate_note": "fictional fixed rate",
+    "rate_scenarios_pct": [
+      6.5,
+      7.25
+    ],
+    "property_tax_pct_of_price": 1.8,
+    "insurance_pct_of_price": 0.5,
+    "hoa_monthly": 0,
+    "closing_costs_pct": 3,
+    "pmi_pct_of_loan_per_year": 0.7,
+    "income_growth_pct": 3,
+    "expense_growth_pct": 2.5,
+    "childcare_stepdown": {
+      "last_full_month": "2029-08",
+      "aftercare_monthly": 600
+    },
+    "invested_return_pct": 5,
+    "cap_gains_tax_pct": 15,
+    "home_price_inflation_pct": 3
+  },
+  "start_fund": {
+    "with_dp": 32000,
+    "without_dp": 20000,
+    "liquid_total": 31500,
+    "summit_joint_money_market": 0,
+    "liquid_plus_money_market": 31500,
+    "emergency_fence": 24000,
+    "start_excess_liquid": 7500,
+    "dp_portfolio": 12000
+  },
+  "gross_income_annual": 248400,
+  "monthly_savings_budget_pace": 2500,
+  "trailing_actual_monthly_net": 2100,
+  "pace_path": [
+    {
+      "year": 1,
+      "average_monthly_savings": 2200
+    },
+    {
+      "year": 2,
+      "average_monthly_savings": 2300
+    },
+    {
+      "year": 3,
+      "average_monthly_savings": 2400
+    },
+    {
+      "year": 4,
+      "average_monthly_savings": 2500
+    },
+    {
+      "year": 5,
+      "average_monthly_savings": 2600
+    }
+  ],
+  "years": [
+    {
+      "year": 1,
+      "usable_fund_with_dp": 41500,
+      "usable_fund_without_dp": 29500,
+      "scenarios": [
+        {
+          "rate_pct": 6.5,
+          "down_payment_pct": 10,
+          "healthy_price_with_dp": 174300,
+          "healthy_price_without_dp": 166000,
+          "healthy_price_today_with_dp": 199200,
+          "healthy_price_today_without_dp": 157700
+        },
+        {
+          "rate_pct": 6.5,
+          "down_payment_pct": 20,
+          "healthy_price_with_dp": 207500,
+          "healthy_price_without_dp": 166000,
+          "healthy_price_today_with_dp": 199200,
+          "healthy_price_today_without_dp": 157700
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "usable_fund_with_dp": 51000,
+      "usable_fund_without_dp": 39000,
+      "scenarios": [
+        {
+          "rate_pct": 6.5,
+          "down_payment_pct": 10,
+          "healthy_price_with_dp": 214200,
+          "healthy_price_without_dp": 204000,
+          "healthy_price_today_with_dp": 244800,
+          "healthy_price_today_without_dp": 193800
+        },
+        {
+          "rate_pct": 6.5,
+          "down_payment_pct": 20,
+          "healthy_price_with_dp": 255000,
+          "healthy_price_without_dp": 204000,
+          "healthy_price_today_with_dp": 244800,
+          "healthy_price_today_without_dp": 193800
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "usable_fund_with_dp": 60500,
+      "usable_fund_without_dp": 48500,
+      "scenarios": [
+        {
+          "rate_pct": 6.5,
+          "down_payment_pct": 10,
+          "healthy_price_with_dp": 254100,
+          "healthy_price_without_dp": 242000,
+          "healthy_price_today_with_dp": 290400,
+          "healthy_price_today_without_dp": 229900
+        },
+        {
+          "rate_pct": 6.5,
+          "down_payment_pct": 20,
+          "healthy_price_with_dp": 302500,
+          "healthy_price_without_dp": 242000,
+          "healthy_price_today_with_dp": 290400,
+          "healthy_price_today_without_dp": 229900
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "usable_fund_with_dp": 70000,
+      "usable_fund_without_dp": 58000,
+      "scenarios": [
+        {
+          "rate_pct": 6.5,
+          "down_payment_pct": 10,
+          "healthy_price_with_dp": 294000,
+          "healthy_price_without_dp": 280000,
+          "healthy_price_today_with_dp": 336000,
+          "healthy_price_today_without_dp": 266000
+        },
+        {
+          "rate_pct": 6.5,
+          "down_payment_pct": 20,
+          "healthy_price_with_dp": 350000,
+          "healthy_price_without_dp": 280000,
+          "healthy_price_today_with_dp": 336000,
+          "healthy_price_today_without_dp": 266000
+        }
+      ]
+    },
+    {
+      "year": 5,
+      "usable_fund_with_dp": 79500,
+      "usable_fund_without_dp": 67500,
+      "scenarios": [
+        {
+          "rate_pct": 6.5,
+          "down_payment_pct": 10,
+          "healthy_price_with_dp": 333900,
+          "healthy_price_without_dp": 318000,
+          "healthy_price_today_with_dp": 381600,
+          "healthy_price_today_without_dp": 302100
+        },
+        {
+          "rate_pct": 6.5,
+          "down_payment_pct": 20,
+          "healthy_price_with_dp": 397500,
+          "healthy_price_without_dp": 318000,
+          "healthy_price_today_with_dp": 381600,
+          "healthy_price_today_without_dp": 302100
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Synthetic scenario inputs for the demo."
+  ]
+}

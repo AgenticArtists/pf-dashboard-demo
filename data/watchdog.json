@@ -1,0 +1,11 @@
+{
+  "findings": [
+    {
+      "id": "demo|review",
+      "type": "review",
+      "title": "Demo data is synthetic",
+      "first_seen": "2026-10-22",
+      "detail": "This is a fictional household dataset."
+    }
+  ]
+}

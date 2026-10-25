@@ -1,0 +1,94 @@
+{
+  "income_lines": [
+    {
+      "id": "salary",
+      "label": "Salary",
+      "budget": 15000,
+      "match": {
+        "group": "Income"
+      }
+    }
+  ],
+  "spend_lines": [
+    {
+      "id": "home-expenses",
+      "label": "Home Expenses",
+      "budget": 3250,
+      "match": {
+        "category": "Home Expenses"
+      }
+    },
+    {
+      "id": "child-dependent-expenses",
+      "label": "Child/Dependent Expenses",
+      "budget": 1300,
+      "match": {
+        "category": "Child/Dependent Expenses"
+      }
+    },
+    {
+      "id": "groceries",
+      "label": "Groceries",
+      "budget": 750,
+      "match": {
+        "category": "Groceries"
+      }
+    },
+    {
+      "id": "restaurants-dining",
+      "label": "Restaurants/Dining",
+      "budget": 350,
+      "match": {
+        "category": "Restaurants/Dining"
+      }
+    },
+    {
+      "id": "automotive-expenses",
+      "label": "Automotive Expenses",
+      "budget": 700,
+      "match": {
+        "category": "Automotive Expenses"
+      }
+    },
+    {
+      "id": "healthcare-medical",
+      "label": "Healthcare/Medical",
+      "budget": 180,
+      "match": {
+        "category": "Healthcare/Medical"
+      }
+    },
+    {
+      "id": "insurance",
+      "label": "Insurance",
+      "budget": 200,
+      "match": {
+        "category": "Insurance"
+      }
+    },
+    {
+      "id": "subscriptions",
+      "label": "Subscriptions",
+      "budget": 100,
+      "match": {
+        "category": "Subscriptions"
+      }
+    },
+    {
+      "id": "loans",
+      "label": "Loans",
+      "budget": 520,
+      "match": {
+        "category": "Loans"
+      }
+    },
+    {
+      "id": "card-payments",
+      "label": "Card Payments",
+      "budget": 100,
+      "match": {
+        "category": "Card Payments"
+      }
+    }
+  ]
+}

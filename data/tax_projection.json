@@ -1,0 +1,69 @@
+{
+  "generated_from": {
+    "daniel_stub_latest": "2026-10-22",
+    "maya_stub": "2026-10-22",
+    "ledger_through": "2026-10-22"
+  },
+  "federal": {
+    "balance_due": 6316.69,
+    "total_tax": 30020.05,
+    "withholding": 23703.36,
+    "effective_rate": 13.36,
+    "marginal_rate": 0.22,
+    "taxable": 192494.86,
+    "tax_before_credits": 31772.87,
+    "ctc": 2000,
+    "income_tax": 29772.87,
+    "se_tax": 247.18
+  },
+  "combined_balance_due": 6316.69,
+  "daniel": {
+    "box1": 127279.44,
+    "gross": 146400,
+    "pretax": {
+      "401(k) Contribution": 11712,
+      "Benefits (pre-tax)": 7408.56
+    },
+    "fed_wh": 15846.48
+  },
+  "maya": {
+    "box1": 94860,
+    "gross": 102000,
+    "k401": 7140,
+    "fed_wh": 7856.88
+  },
+  "income": {
+    "se_1099_fy": 1874.33,
+    "se_1099_ytd": 1405.75,
+    "other_fy": 681.09,
+    "box1_total": 222139.44,
+    "agi": 224694.86
+  },
+  "w4_fix": {
+    "remaining_daniel_checks": 5,
+    "extra_per_check_to_zero": 1263.34,
+    "extra_per_check_safe_harbor": 662.94,
+    "safe_harbor_target": 27018.05,
+    "safe_harbor_gap": 3314.69
+  },
+  "assumptions": [
+    "All tax values are fictional demo estimates.",
+    "Texas has no state income tax, so this projection is federal only — there is no state balance, state withholding, or state fix.",
+    "Wages annualize the current pay stubs (Daniel $6,100 gross per check, Maya $4,250); each stub’s federal withholding x 24 is the withholding shown.",
+    "Daniel’s withholding reflects the W-4 from his June role change; it annualizes about 4% light.",
+    "The 1099 income is Maya’s two-week contract stretch in February; no quarterly estimates were paid on it.",
+    "Interest and dividends are the Cedar Bank and brokerage year-to-date figures, grossed up for December."
+  ],
+  "sensitivity_reduced_hours": {
+    "federal_balance": 4793.86
+  },
+  "validation": {
+    "filed_agi": 158442.19,
+    "filed_tax": 19102.44,
+    "engine_tax": 19089.31,
+    "delta_pct": 0.07
+  },
+  "sources": [
+    "Synthetic household model"
+  ]
+}

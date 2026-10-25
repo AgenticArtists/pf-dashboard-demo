@@ -1,0 +1,27 @@
+name: Site checks
+
+# Runs ESLint (`npm run lint`) and the check suites
+# (scripts/*-checks.mjs via `npm test`) on every push to main and every
+# pull request. The suites read the committed data files, so no secrets
+# are needed. This workflow reports status only — it does not gate
+# Vercel's production deploy.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          # Suites use node:module registerHooks (Node >= 22.15); 24 is the
+          # line they are developed and run against.
+          node-version: 24
+          cache: npm
+          cache-dependency-path: package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm test

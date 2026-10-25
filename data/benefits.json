@@ -1,0 +1,66 @@
+{
+  "as_of": "2026-10-22",
+  "elections_total_per_pay": 308.69,
+  "pay_periods_per_year": 26,
+  "elections": [
+    {
+      "item": "Medical premium",
+      "group": "Family",
+      "covered": "Daniel, Maya, child",
+      "per_pay": 187.43,
+      "annual": 4873.18
+    },
+    {
+      "item": "HSA contribution",
+      "group": "Health",
+      "covered": "Family",
+      "per_pay": 96.15,
+      "annual": 2499.9
+    },
+    {
+      "item": "Dental premium",
+      "group": "Family",
+      "covered": "Daniel, Maya, child",
+      "per_pay": 18.27,
+      "annual": 475.02
+    },
+    {
+      "item": "Vision premium",
+      "group": "Family",
+      "covered": "Daniel, Maya",
+      "per_pay": 6.84,
+      "annual": 177.84
+    }
+  ],
+  "enrollment_actions": [
+    {
+      "id": "hsa",
+      "title": "Increase HSA",
+      "current": "$2,499.90",
+      "recommended": "$3,153.85",
+      "delta": "+$653.95",
+      "annual": 3153.85
+    }
+  ],
+  "retirement": {
+    "total_wealth_accumulation": 124382.55,
+    "as_of": "2026-10-22",
+    "annual_savings_rate_pct": 14.6,
+    "plan_401k": {
+      "balance": 107003,
+      "daniel_traditional": 64812.37,
+      "maya_traditional": 42190.63,
+      "his_contribution_pct": 8
+    }
+  },
+  "hsa": {
+    "total": 6214.83,
+    "balance": 6214.83,
+    "fund": "Carter Treasury Reserve",
+    "as_of": "2026-10-22",
+    "receipt_stash": "Fictional demo HSA records."
+  },
+  "dcfsa": {
+    "annual_election": 4750
+  }
+}

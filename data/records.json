@@ -1,0 +1,79 @@
+{
+  "demo": true,
+  "lease": {
+    "property": "Cedar Grove Apartments",
+    "landlords": [
+      "Cedar Grove Property Co."
+    ],
+    "tenants": [
+      "Daniel Carter",
+      "Maya Carter"
+    ],
+    "term": {
+      "start": "2025-01-01",
+      "original_end": "2026-12-31",
+      "amended_end": "2027-12-31"
+    },
+    "rent": {
+      "current": 2800,
+      "amended": 2800,
+      "amended_from": "2025-01-01"
+    },
+    "security_deposit": {
+      "amount": 2800
+    },
+    "notice_deadline_for_current_term": "2027-11-01",
+    "tenant_early_termination": "See fictional lease summary.",
+    "landlord_early_termination": "See fictional lease summary.",
+    "insurance_requirement": "Renters coverage required."
+  },
+  "daniel": {
+    "employer": "Northstar Systems",
+    "current_salary": 146400,
+    "pay_structure": {
+      "current_salary_annualized": 146400,
+      "frequency": "Semi-monthly"
+    },
+    "latest_stub": {
+      "pay_date": "2026-10-22",
+      "gross": 6100,
+      "net_pay": 4200
+    },
+    "retirement_401k": {
+      "his_deferral": "8%",
+      "employer_funding": "4%"
+    }
+  },
+  "maya": {
+    "employer": "Brightline Studio",
+    "current_salary": 102000,
+    "pay_structure": {
+      "current_salary_annualized": 102000,
+      "frequency": "Semi-monthly"
+    },
+    "latest_stub": {
+      "pay_date": "2026-10-22",
+      "gross": 4250,
+      "net_pay": 3300
+    },
+    "retirement_401k": {
+      "her_deferral": "7%",
+      "employer_funding": "3%"
+    }
+  },
+  "compensation": {},
+  "apple": {
+    "as_of": "2026-10-22",
+    "current": {
+      "balance": 0,
+      "due": "2026-11-15",
+      "minimum_payment": 0
+    },
+    "statements": [],
+    "subscriptions_as_of_2026_10_13": {
+      "renewing": [],
+      "expiring_cancelled": []
+    }
+  },
+  "benefits_programs": []
+}

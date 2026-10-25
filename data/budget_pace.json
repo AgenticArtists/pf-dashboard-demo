@@ -1,0 +1,45 @@
+{
+  "file": "budget_pace_oct2026.json",
+  "rows": [
+    {
+      "category": "Home Expenses",
+      "budget_month": 3250
+    },
+    {
+      "category": "Child/Dependent Expenses",
+      "budget_month": 1300
+    },
+    {
+      "category": "Groceries",
+      "budget_month": 750
+    },
+    {
+      "category": "Restaurants/Dining",
+      "budget_month": 350
+    },
+    {
+      "category": "Automotive Expenses",
+      "budget_month": 700
+    },
+    {
+      "category": "Healthcare/Medical",
+      "budget_month": 180
+    },
+    {
+      "category": "Insurance",
+      "budget_month": 200
+    },
+    {
+      "category": "Subscriptions",
+      "budget_month": 100
+    },
+    {
+      "category": "Loans",
+      "budget_month": 520
+    },
+    {
+      "category": "Card Payments",
+      "budget_month": 100
+    }
+  ]
+}

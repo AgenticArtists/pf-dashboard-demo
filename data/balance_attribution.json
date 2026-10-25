@@ -1,0 +1,17 @@
+{
+  "assets": {
+    "Daniel": 168000,
+    "Maya": 130000,
+    "Joint": 96976.48
+  },
+  "liabilities": {
+    "Daniel": 812.12,
+    "Maya": 0,
+    "Joint": 7892.98
+  },
+  "net": {
+    "Daniel": 167187.88,
+    "Maya": 130000,
+    "Joint": 89083.5
+  }
+}

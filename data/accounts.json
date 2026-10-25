@@ -1,0 +1,135 @@
+[
+  {
+    "id": "joint-checking",
+    "kind": "asset",
+    "institution": "Cedar Bank",
+    "name": "Joint Checking",
+    "mask": "4102",
+    "owner": "Joint",
+    "dashboard_value": 26776.48,
+    "source_of_truth": "demo_snapshot",
+    "last_verified": "2026-10-22"
+  },
+  {
+    "id": "daniel-checking",
+    "kind": "asset",
+    "institution": "Cedar Bank",
+    "name": "Daniel Checking",
+    "mask": "7734",
+    "owner": "Daniel",
+    "dashboard_value": 103000,
+    "source_of_truth": "demo_snapshot",
+    "last_verified": "2026-10-22"
+  },
+  {
+    "id": "maya-checking",
+    "kind": "asset",
+    "institution": "Bluebonnet Credit Union",
+    "name": "Maya Checking",
+    "mask": "2946",
+    "owner": "Maya",
+    "dashboard_value": 88000,
+    "source_of_truth": "demo_snapshot",
+    "last_verified": "2026-10-22"
+  },
+  {
+    "id": "savings",
+    "kind": "asset",
+    "institution": "Cedar Bank",
+    "name": "Rainy Day Savings",
+    "mask": "8251",
+    "owner": "Joint",
+    "dashboard_value": 18000,
+    "source_of_truth": "demo_snapshot",
+    "last_verified": "2026-10-22"
+  },
+  {
+    "id": "brokerage",
+    "kind": "asset",
+    "institution": "Summit Investments",
+    "name": "Joint Brokerage",
+    "mask": "",
+    "owner": "Joint",
+    "dashboard_value": 28000,
+    "source_of_truth": "demo_snapshot",
+    "last_verified": "2026-10-22"
+  },
+  {
+    "id": "daniel-401k",
+    "kind": "asset",
+    "institution": "Northstar Benefits",
+    "name": "Daniel 401(k)",
+    "mask": "",
+    "owner": "Daniel",
+    "dashboard_value": 65000,
+    "source_of_truth": "demo_snapshot",
+    "last_verified": "2026-10-22"
+  },
+  {
+    "id": "maya-401k",
+    "kind": "asset",
+    "institution": "Brightline Benefits",
+    "name": "Maya 401(k)",
+    "mask": "",
+    "owner": "Maya",
+    "dashboard_value": 42000,
+    "source_of_truth": "demo_snapshot",
+    "last_verified": "2026-10-22"
+  },
+  {
+    "id": "ira",
+    "kind": "asset",
+    "institution": "Summit Investments",
+    "name": "Carter Roth IRA",
+    "mask": "",
+    "owner": "Joint",
+    "dashboard_value": 18000,
+    "source_of_truth": "demo_snapshot",
+    "last_verified": "2026-10-22"
+  },
+  {
+    "id": "hsa",
+    "kind": "asset",
+    "institution": "Northstar Benefits",
+    "name": "Family HSA",
+    "mask": "",
+    "owner": "Joint",
+    "dashboard_value": 6200,
+    "source_of_truth": "demo_snapshot",
+    "last_verified": "2026-10-22"
+  },
+  {
+    "id": "card-a",
+    "kind": "liability",
+    "institution": "Bluebonnet Credit Union",
+    "name": "Bluebonnet Rewards Card",
+    "mask": "5183",
+    "owner": "Joint",
+    "dashboard_value": 4992.98,
+    "source_of_truth": "demo_snapshot",
+    "last_verified": "2026-10-22"
+  },
+  {
+    "id": "card-b",
+    "kind": "liability",
+    "institution": "Cedar Bank",
+    "name": "Cedar Cash Card",
+    "mask": "7264",
+    "owner": "Daniel",
+    "dashboard_value": 812.12,
+    "source_of_truth": "demo_snapshot",
+    "last_verified": "2026-10-22"
+  },
+  {
+    "id": "auto-loan",
+    "kind": "liability",
+    "institution": "Riverbend Auto Finance",
+    "name": "Riverbend Auto Loan",
+    "mask": "8842",
+    "owner": "Joint",
+    "dashboard_value": 2900,
+    "source_of_truth": "demo_snapshot",
+    "last_verified": "2026-10-22",
+    "collateral": "Fictional compact SUV"
+  }
+]

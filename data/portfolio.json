@@ -1,0 +1,300 @@
+{
+  "total_investable": 159200,
+  "mapped_total": 159200,
+  "unmapped_total": 0,
+  "coverage_pct": 100,
+  "positions_as_of": "2026-10-22",
+  "allocation": {
+    "dollars": {
+      "us_equity": 49000,
+      "intl_equity": 26000,
+      "bonds": 30000,
+      "cash": 54200,
+      "other": 0
+    },
+    "pct": {
+      "us_equity": 30.78,
+      "intl_equity": 16.33,
+      "bonds": 18.84,
+      "cash": 34.05,
+      "other": 0
+    },
+    "labels": {
+      "us_equity": "US equity",
+      "intl_equity": "International equity",
+      "bonds": "Bonds",
+      "cash": "Cash"
+    }
+  },
+  "target": {
+    "status": "Demo target",
+    "classes_pct": {
+      "us_equity": 45,
+      "intl_equity": 20,
+      "bonds": 25,
+      "cash": 10
+    },
+    "rationale": "Fictional balanced target for the Carter household demo."
+  },
+  "us_equity_bounds_pct": [
+    30,
+    55
+  ],
+  "ideas_as_of": "2026-10-22",
+  "reserves": {
+    "total": 31500,
+    "bank_cash": 31500,
+    "money_market_swvxx": 0,
+    "floor_low": 24000,
+    "floor_high": 42000,
+    "meets_floor": true
+  },
+  "drift": [
+    {
+      "class": "us_equity",
+      "label": "US equity",
+      "current_pct": 30.78,
+      "target_pct": 45,
+      "drift_pts": -14.22,
+      "flag": true
+    },
+    {
+      "class": "intl_equity",
+      "label": "International equity",
+      "current_pct": 16.33,
+      "target_pct": 20,
+      "drift_pts": -3.67,
+      "flag": false
+    },
+    {
+      "class": "bonds",
+      "label": "Bonds",
+      "current_pct": 18.84,
+      "target_pct": 25,
+      "drift_pts": -6.16,
+      "flag": false
+    },
+    {
+      "class": "cash",
+      "label": "Cash",
+      "current_pct": 34.05,
+      "target_pct": 10,
+      "drift_pts": 24.05,
+      "flag": true
+    }
+  ],
+  "summit_plan": [
+    {
+      "class": "us_equity",
+      "label": "US equity",
+      "vehicle": "Carter Broad Market Index",
+      "vehicle_name": "Carter Broad Market Index (CARTERX)",
+      "action": "buy",
+      "current": 49000,
+      "target": 71640,
+      "delta": 22640,
+      "weight_pct": 30.78,
+      "current_pct": 30.78,
+      "target_pct": 45,
+      "note": "Largest single drift in the demo portfolio: 14.2 points under target.",
+      "tax": {
+        "kind": "none",
+        "note": "Buys realize no tax."
+      }
+    },
+    {
+      "class": "intl_equity",
+      "label": "International equity",
+      "vehicle": "Carter International Index",
+      "vehicle_name": "Carter International Index (CARTERI)",
+      "action": "buy",
+      "current": 26000,
+      "target": 31840,
+      "delta": 5840,
+      "weight_pct": 16.33,
+      "current_pct": 16.33,
+      "target_pct": 20,
+      "note": "Mildly under target; the same contribution stream fills it after US equity.",
+      "tax": {
+        "kind": "none",
+        "note": "Buys realize no tax."
+      }
+    },
+    {
+      "class": "bonds",
+      "label": "Bonds",
+      "vehicle": "Carter Core Bond Index",
+      "vehicle_name": "Carter Core Bond Index (CARTERB)",
+      "action": "hold",
+      "current": 30000,
+      "target": 39800,
+      "delta": 0,
+      "weight_pct": 18.84,
+      "current_pct": 18.84,
+      "target_pct": 25,
+      "note": "Hold — the gap to target closes through later contribution stages, not a sale.",
+      "tax": {
+        "kind": "none",
+        "note": "No sale, so no tax."
+      }
+    },
+    {
+      "class": "cash",
+      "label": "Cash",
+      "vehicle": "Carter Treasury Reserve",
+      "vehicle_name": "Carter Treasury Reserve (CARTERC)",
+      "action": "trim",
+      "current": 54200,
+      "target": 15920,
+      "delta": -38280,
+      "weight_pct": 34.05,
+      "current_pct": 34.05,
+      "target_pct": 10,
+      "note": "The trim funds the equity buys; the $24,000–$42,000 reserve floor stays intact.",
+      "tax": {
+        "kind": "none",
+        "note": "Treasury reserve sales realize no material gain in this demo."
+      },
+      "sol_tax_commentary": "Synthetic desk view: this trim comes out of a Treasury reserve, so there is no meaningful gain to tax in the demo figures — the move is tax-free for practical purposes."
+    }
+  ],
+  "ideas": [
+    {
+      "id": "demo-us-equity",
+      "plan_class": "us_equity",
+      "stance": "modify",
+      "title": "Stage the US equity build",
+      "tickers": [
+        "CARTERX"
+      ],
+      "horizon": "2 quarters",
+      "analyst_notes": "Synthetic analyst note: the plan's one-step buy is sound on paper; staging it across two quarters of contributions reaches the same target without a sale.",
+      "bull": "Drift is the largest measured gap in the demo portfolio; closing it steadily beats trying to time it.",
+      "bear": "Staging leaves cash above target longer if markets run first.",
+      "risk": "The mix stays equity-light until the second stage lands.",
+      "manager_verdict": "Modify: keep the plan's direction, fund it from contributions in two stages."
+    },
+    {
+      "id": "demo-cash-trim",
+      "plan_class": "cash",
+      "stance": "endorse",
+      "title": "Trim the Treasury reserve to target",
+      "tickers": [
+        "CARTERC"
+      ],
+      "horizon": "this quarter",
+      "analyst_notes": "Synthetic analyst note: cash at 34.05% against a 10% target is the portfolio's largest single drift.",
+      "bull": "The reserve floor stays funded after the trim in the demo figures.",
+      "bear": "A nearer house purchase would want this cash back.",
+      "risk": "Moving faster than the plan shrinks the emergency cushion toward the floor.",
+      "manager_verdict": "Endorse, sized exactly as the plan computes."
+    }
+  ],
+  "accounts": [
+    {
+      "account": "Joint Brokerage",
+      "owner": "Joint",
+      "value": 28000,
+      "mapped": true,
+      "actionable": "yes",
+      "positions": [
+        {
+          "symbol": "CARTERX",
+          "value": 28000
+        }
+      ]
+    },
+    {
+      "account": "Daniel 401(k)",
+      "owner": "Daniel",
+      "value": 65000,
+      "mapped": true,
+      "actionable": "yes",
+      "positions": [
+        {
+          "symbol": "CARTERX",
+          "value": 65000
+        }
+      ]
+    },
+    {
+      "account": "Maya 401(k)",
+      "owner": "Maya",
+      "value": 42000,
+      "mapped": true,
+      "actionable": "yes",
+      "positions": [
+        {
+          "symbol": "CARTERX",
+          "value": 42000
+        }
+      ]
+    },
+    {
+      "account": "Carter Roth IRA",
+      "owner": "Joint",
+      "value": 18000,
+      "mapped": true,
+      "actionable": "yes",
+      "positions": [
+        {
+          "symbol": "CARTERX",
+          "value": 18000
+        }
+      ]
+    },
+    {
+      "account": "Family HSA",
+      "owner": "Joint",
+      "value": 6200,
+      "mapped": true,
+      "actionable": "yes",
+      "positions": [
+        {
+          "symbol": "CARTERX",
+          "value": 6200
+        }
+      ]
+    }
+  ],
+  "unmapped": [],
+  "optimizer": {
+    "engine": "Demo model views (fictional)",
+    "proxies": {
+      "us_equity": "CARTERX",
+      "intl_equity": "CARTERI",
+      "bonds": "CARTERB",
+      "cash": "CARTERC"
+    },
+    "price_window": [
+      "2021-10-01",
+      "2026-10-01"
+    ],
+    "hrp": {
+      "weights_by_class": {
+        "us_equity": 0.45,
+        "intl_equity": 0.2,
+        "bonds": 0.25,
+        "cash": 0.1
+      },
+      "volatility": 0.11,
+      "expected_return": 0.065
+    },
+    "max_sharpe": {
+      "weights_by_class": {
+        "us_equity": 0.62,
+        "intl_equity": 0.18,
+        "bonds": 0.12,
+        "cash": 0.08
+      },
+      "volatility": 0.135,
+      "expected_return": 0.078
+    }
+  },
+  "flags": [
+    {
+      "title": "Synthetic demo portfolio",
+      "detail": "Every figure on this page is fictional. No trade is placed from this page."
+    }
+  ]
+}

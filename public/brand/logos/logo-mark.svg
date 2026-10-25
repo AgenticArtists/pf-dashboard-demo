@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="AgenticArtists logo mark">
+  <defs>
+    <linearGradient id="aaGradient" x1="15" y1="18" x2="103" y2="101" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06B6D4"/>
+      <stop offset="0.34" stop-color="#2563EB"/>
+      <stop offset="0.68" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="sparkGradient" x1="42" y1="45" x2="79" y2="85" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06B6D4"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  <path d="M22 96 L54 26 C57 19 64 19 68 26 L99 96" fill="none" stroke="url(#aaGradient)" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42 72 H80" fill="none" stroke="url(#aaGradient)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M61 47 C63.5 57.5 69.5 63.5 80 66 C69.5 68.5 63.5 74.5 61 85 C58.5 74.5 52.5 68.5 42 66 C52.5 63.5 58.5 57.5 61 47 Z" fill="url(#sparkGradient)" stroke="#0B1220" stroke-width="3" stroke-linejoin="round"/>
+</svg>

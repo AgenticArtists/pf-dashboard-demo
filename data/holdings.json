@@ -1,0 +1,30 @@
+{
+  "as_of": "2026-10-22",
+  "total": 159200,
+  "holdings": [
+    {
+      "symbol": "CARTERX",
+      "name": "Carter Broad Market Index",
+      "asset_class": "us_equity",
+      "value": 49000
+    },
+    {
+      "symbol": "CARTERB",
+      "name": "Carter Core Bond Index",
+      "asset_class": "bonds",
+      "value": 30000
+    },
+    {
+      "symbol": "CARTERI",
+      "name": "Carter International Index",
+      "asset_class": "intl_equity",
+      "value": 26000
+    },
+    {
+      "symbol": "CARTERC",
+      "name": "Carter Treasury Reserve",
+      "asset_class": "cash",
+      "value": 54200
+    }
+  ]
+}

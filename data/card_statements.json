@@ -1,0 +1,25 @@
+{
+  "as_of": "2026-10-22",
+  "statements": [
+    {
+      "card": "Bluebonnet Rewards Card",
+      "institution": "Bluebonnet Credit Union",
+      "mask": "5183",
+      "owner": "Joint",
+      "statement_date": "2026-10-14",
+      "balance": 4992.98,
+      "minimum_due": 99.86,
+      "due_date": "2026-11-10"
+    },
+    {
+      "card": "Cedar Cash Card",
+      "institution": "Cedar Bank",
+      "mask": "7264",
+      "owner": "Daniel",
+      "statement_date": "2026-10-17",
+      "balance": 812.12,
+      "minimum_due": 25,
+      "due_date": "2026-11-13"
+    }
+  ]
+}

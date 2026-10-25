@@ -1,0 +1,23 @@
+{
+  "as_of": "2026-10-22",
+  "sources": [
+    {
+      "source": "Fictional market notes",
+      "forecasts_scored": 12,
+      "brier": 0.21,
+      "weight": 0.6
+    },
+    {
+      "source": "Synthetic rates desk memo",
+      "forecasts_scored": 8,
+      "brier": 0.24,
+      "weight": 0.4
+    },
+    {
+      "source": "Carter demo research digest",
+      "forecasts_scored": 3,
+      "brier": null,
+      "weight": null
+    }
+  ]
+}

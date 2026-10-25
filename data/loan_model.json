@@ -1,0 +1,9 @@
+{
+  "lender": "Riverbend Auto Finance",
+  "account_mask": "8842",
+  "payment_mask": "4102",
+  "payment_name": "Riverbend Auto Loan Payment",
+  "monthly_payment": 510,
+  "principal_per_payment": 300,
+  "as_of": "2026-10-22"
+}

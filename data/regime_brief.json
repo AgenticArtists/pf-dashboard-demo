@@ -1,0 +1,82 @@
+{
+  "as_of": "2026-10-22",
+  "sources": [
+    "Fictional market notes",
+    "Carter demo research digest",
+    "Synthetic rates desk memo"
+  ],
+  "sections": {
+    "regime_now": [
+      "In this synthetic snapshot, cash yields stay near their recent range and broad equity indexes sit close to their highs.",
+      "Demo rate expectations lean toward one more cut this year, but the fictional sources disagree on the timing."
+    ],
+    "target_implications": [
+      "The demo target's 25% bond weight is the main shock absorber; the current 18.84% leaves the mix more equity-driven than the plan.",
+      "New contributions, not sales, are the cheapest path from 34.05% cash toward the 10% target in this fictional case."
+    ],
+    "watch_items": [
+      "Whether the fictional childcare step-down in 2029 changes the savings pace enough to revisit the cash target.",
+      "Demo watch: the auto loan matures before the house window; its $510 payment is the largest single lever in the pace model."
+    ],
+    "disagreements": [
+      "One fictional source expects equity returns to cool from here; another expects earnings growth to carry them — the demo treats both as unproven.",
+      "The sources split on whether bond yields fall fast enough to make the 25% bond target pay this year."
+    ]
+  },
+  "simple_sections": {
+    "regime_now": [
+      "In this made-up snapshot, cash still pays a decent yield and stock indexes are near their highs.",
+      "The fictional sources expect maybe one more rate cut this year, but they argue about when."
+    ],
+    "target_implications": [
+      "Bonds are the cushion in the demo target. Holding less than the target means bumpier rides.",
+      "Adding new savings is the cheapest way to bring the extra cash down to target."
+    ],
+    "watch_items": [
+      "Childcare gets cheaper in 2029 in this fictional plan, which could change how much cash to hold.",
+      "The car loan ends before the house purchase window, freeing up its $510 monthly payment."
+    ],
+    "disagreements": [
+      "The made-up sources argue about whether stocks cool off or keep climbing.",
+      "They also split on whether bond yields fall fast enough to reward the bond target this year."
+    ]
+  },
+  "bullet_meta": {
+    "regime_now": [
+      {
+        "basis": "fact"
+      },
+      {
+        "basis": "forecast",
+        "contested": true
+      }
+    ],
+    "target_implications": [
+      {
+        "basis": "opinion"
+      },
+      {
+        "basis": "fact"
+      }
+    ],
+    "watch_items": [
+      {
+        "basis": "fact"
+      },
+      {
+        "basis": "opinion"
+      }
+    ],
+    "disagreements": [
+      {
+        "basis": "opinion",
+        "contested": true
+      },
+      {
+        "basis": "forecast",
+        "contested": true
+      }
+    ]
+  },
+  "glossary_terms": []
+}

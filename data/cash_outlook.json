@@ -1,0 +1,225 @@
+{
+  "as_of": "2026-10-22",
+  "cash_now": 235776.48,
+  "projected_cash_day30": 239893.38,
+  "cash_accounts_included": [
+    "4102",
+    "7734",
+    "2946",
+    "8251"
+  ],
+  "low_point": {
+    "date": "2026-11-03",
+    "amount": 231216.48
+  },
+  "window": {
+    "days": 30,
+    "end": "2026-11-21"
+  },
+  "committed_outflows": {
+    "total": 5078
+  },
+  "card_bills_due": {
+    "total": 5805.1
+  },
+  "daily_projection": [
+    {
+      "date": "2026-10-22",
+      "projected_balance": 235776.48
+    },
+    {
+      "date": "2026-10-23",
+      "projected_balance": 235776.48
+    },
+    {
+      "date": "2026-10-24",
+      "projected_balance": 235776.48
+    },
+    {
+      "date": "2026-10-25",
+      "projected_balance": 235266.48
+    },
+    {
+      "date": "2026-10-26",
+      "projected_balance": 235266.48
+    },
+    {
+      "date": "2026-10-27",
+      "projected_balance": 235266.48
+    },
+    {
+      "date": "2026-10-28",
+      "projected_balance": 235266.48
+    },
+    {
+      "date": "2026-10-29",
+      "projected_balance": 235266.48
+    },
+    {
+      "date": "2026-10-30",
+      "projected_balance": 235266.48
+    },
+    {
+      "date": "2026-10-31",
+      "projected_balance": 235266.48
+    },
+    {
+      "date": "2026-11-01",
+      "projected_balance": 232466.48
+    },
+    {
+      "date": "2026-11-02",
+      "projected_balance": 232466.48
+    },
+    {
+      "date": "2026-11-03",
+      "projected_balance": 231216.48
+    },
+    {
+      "date": "2026-11-04",
+      "projected_balance": 231216.48
+    },
+    {
+      "date": "2026-11-05",
+      "projected_balance": 238716.48
+    },
+    {
+      "date": "2026-11-06",
+      "projected_balance": 238716.48
+    },
+    {
+      "date": "2026-11-07",
+      "projected_balance": 238502.48
+    },
+    {
+      "date": "2026-11-08",
+      "projected_balance": 238502.48
+    },
+    {
+      "date": "2026-11-09",
+      "projected_balance": 238502.48
+    },
+    {
+      "date": "2026-11-10",
+      "projected_balance": 233509.5
+    },
+    {
+      "date": "2026-11-11",
+      "projected_balance": 233391.5
+    },
+    {
+      "date": "2026-11-12",
+      "projected_balance": 233391.5
+    },
+    {
+      "date": "2026-11-13",
+      "projected_balance": 232579.38
+    },
+    {
+      "date": "2026-11-14",
+      "projected_balance": 232579.38
+    },
+    {
+      "date": "2026-11-15",
+      "projected_balance": 232579.38
+    },
+    {
+      "date": "2026-11-16",
+      "projected_balance": 232393.38
+    },
+    {
+      "date": "2026-11-17",
+      "projected_balance": 232393.38
+    },
+    {
+      "date": "2026-11-18",
+      "projected_balance": 232393.38
+    },
+    {
+      "date": "2026-11-19",
+      "projected_balance": 232393.38
+    },
+    {
+      "date": "2026-11-20",
+      "projected_balance": 239893.38
+    },
+    {
+      "date": "2026-11-21",
+      "projected_balance": 239893.38
+    }
+  ],
+  "items": [
+    {
+      "date": "2026-10-25",
+      "label": "Riverbend Auto Loan Payment",
+      "amount": 510,
+      "kind": "committed_outflow"
+    },
+    {
+      "date": "2026-11-01",
+      "label": "Cedar Grove Rent",
+      "amount": 2800,
+      "kind": "committed_outflow"
+    },
+    {
+      "date": "2026-11-03",
+      "label": "Little Oak Learning Center",
+      "amount": 1250,
+      "kind": "committed_outflow"
+    },
+    {
+      "date": "2026-11-05",
+      "label": "Northstar Systems paycheck",
+      "amount": 4200,
+      "kind": "expected_income"
+    },
+    {
+      "date": "2026-11-05",
+      "label": "Brightline Studio paycheck",
+      "amount": 3300,
+      "kind": "expected_income"
+    },
+    {
+      "date": "2026-11-07",
+      "label": "Austin Electric Cooperative",
+      "amount": 214,
+      "kind": "committed_outflow"
+    },
+    {
+      "date": "2026-11-10",
+      "label": "Card bill — Bluebonnet Rewards Card",
+      "amount": 4992.98,
+      "kind": "card_bill"
+    },
+    {
+      "date": "2026-11-11",
+      "label": "BrightCell Mobile",
+      "amount": 118,
+      "kind": "committed_outflow"
+    },
+    {
+      "date": "2026-11-13",
+      "label": "Card bill — Cedar Cash Card",
+      "amount": 812.12,
+      "kind": "card_bill"
+    },
+    {
+      "date": "2026-11-16",
+      "label": "Bluebonnet Auto Cover",
+      "amount": 186,
+      "kind": "committed_outflow"
+    },
+    {
+      "date": "2026-11-20",
+      "label": "Northstar Systems paycheck",
+      "amount": 4200,
+      "kind": "expected_income"
+    },
+    {
+      "date": "2026-11-20",
+      "label": "Brightline Studio paycheck",
+      "amount": 3300,
+      "kind": "expected_income"
+    }
+  ]
+}

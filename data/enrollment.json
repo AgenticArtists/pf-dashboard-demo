@@ -1,0 +1,72 @@
+{
+  "plan_year": 2027,
+  "as_of": "2026-10-22",
+  "mailer": [
+    {
+      "title": "Mailer rate vs portal rate",
+      "text": "The printed mailer shows the family medical premium at $486.19/pay; the enrollment portal shows $473.55. The portal figure is the one that will be deducted — the mailer was printed before the October rate correction.",
+      "verdict": "NOTE"
+    },
+    {
+      "title": "HSA seed money",
+      "text": "Northstar Systems seeds the HSA with $500 in January and another $250 in July if a biometric screening is on file by May 31.",
+      "verdict": "NOTE"
+    }
+  ],
+  "change": [
+    {
+      "title": "HSA contribution",
+      "note": "Raise toward the family maximum in two steps so the January budget is not squeezed.",
+      "current": "$2,499.90",
+      "recommended": "$3,153.85",
+      "delta": "+$653.95"
+    },
+    {
+      "title": "Dental plan",
+      "note": "The child’s orthodontia consult is not expected until 2027; the DHMO covers the consult at a copay instead of coinsurance.",
+      "current": "$475.02",
+      "recommended": "$388.70",
+      "delta": "-$86.32"
+    }
+  ],
+  "keep": [
+    {
+      "item": "Family medical plan",
+      "why": "The family deductible was met in March, so switching plans mid-stream would restart it; the premium gap to the leaner plan is $13.88/pay, less than one urgent-care visit."
+    },
+    {
+      "item": "Vision plan",
+      "why": "At $6.84/pay it pays for itself with one pair of glasses; Maya’s prescription changed in August."
+    }
+  ],
+  "hdhp_explainer": {
+    "title": "Demo plan note",
+    "paras": [
+      "This section contains fictional benefits education."
+    ],
+    "bullets": [
+      "No election is sent from this page."
+    ]
+  },
+  "analysis": {
+    "bottom_line": "Use the fictional comparison as a UI demonstration only.",
+    "sections": [
+      {
+        "h": "What changed",
+        "paras": [
+          "Synthetic plan inputs are shown for layout coverage."
+        ],
+        "items": [],
+        "bullets": []
+      }
+    ],
+    "table": [],
+    "table_total": null,
+    "table_note": "Synthetic demo values."
+  },
+  "verify": [
+    "Confirm Maya’s 401(k) deferral carried over — it reset to 0% during the March payroll migration and was caught in April.",
+    "Check the HSA seed posts in January before assuming the balance covers the spring orthodontia consult.",
+    "Re-check the dental election after the consult quote arrives; the DHMO saving assumes no out-of-network visits."
+  ]
+}
